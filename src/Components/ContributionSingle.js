@@ -7,11 +7,14 @@ class ContributionSingle extends React.Component {
         if (!contribution)
             return;
 
-        console.log(contribution)
-
         return (
             <div>
-                {contribution.name}
+                <h3>
+                    {contribution.name}
+                </h3>
+                <p>
+                    {contribution.job}
+                </p>
             </div>
         )
     }
