@@ -1,7 +1,15 @@
 {
-  "name" : "Anon/BarryP",
+  "name" : "Anon/Test XYZ",
   "job" : "Software Engineer",
-  "industry" : "Data",
-  "tagline" : "ABC.",
-  "experience" : "MNO"
+  "employerCurrent" : "Just Eat",
+  "employerPrev" : ["IBM", "Costa Coffee", "Strafe Creative"],
+  "industry" : "E-Commerce",
+  "summary" : "Mental health effects us all, both directly and indirectly. Let's break down the stigma and get the tech community talking about mental health.",
+  "detailed" : "more details here",
+  "experience" : "X Y Z",
+  "socials" : {
+    "linkedIn" : "https://www.linkedin.com/in/matthew-kempa/",
+    "facebook" : "https://www.facebook.com/matthew.kempa",
+    "twitter" : "https://twitter.com/MatthewKempa"
+  }
 }

@@ -36,10 +36,16 @@ class Contributions extends React.Component {
             return <h1>Loading...</h1>
 
         return (
-            <div>
+            <div
+                className='contributionsContainer'
+            >
                 {
                     Object.keys(contributions).map((contribution, id) =>(
-                        <ContributionSingle key={id} contribution={contributions[contribution]}/>
+                        <ContributionSingle
+                            key={id}
+                            order={Math.floor(Math.random() * 1000)}
+                            contribution={contributions[contribution]}
+                        />
                     ))
                 }
             </div>
