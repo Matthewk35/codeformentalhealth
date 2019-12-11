@@ -1,32 +1,29 @@
 import * as React from "react";
+import SpeechBubble from "./SpeechBubble";
+import Profile from "./Profile";
 
-class ContributionSingle extends React.Component {
-    render() {
-        const { contribution } = this.props;
+export default function ContributionSingle(props) {
+    const { contribution, order } = props;
+    if (!contribution)
+        return;
 
-        if (!contribution)
-            return;
+    const { summary, name, job, employerCurrent, employerPrev, socials } = contribution
 
-        return (
-            <div
-                className='contributionsSingle boxShadowStandard'
-                style={{order : this.props.order}}
-            >
-                <h3>
-                    {contribution.name}
-                </h3>
-                <p>
-                    {contribution.job} @ {contribution.employerCurrent}
-                </p>
-                <p>
-                    {contribution.employerPrev.map((emp)=>{return <span className='prevRoleItem'>{emp}</span>})}
-                </p>
-                <h6>
-                    {contribution.summary}
-                </h6>
-            </div>
-        )
-    }
+    return (
+        <div
+            className='contributionsSingle'
+        >
+            <SpeechBubble
+                summary={summary}
+                order={order}
+            />
+            <Profile
+                name={name}
+                job={job}
+                employerCurrent={employerCurrent}
+                employerPrev={employerPrev}
+                socials={socials}
+            />
+        </div>
+    )
 }
-
-export default ContributionSingle;

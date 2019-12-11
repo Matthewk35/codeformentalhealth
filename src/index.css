@@ -32,13 +32,37 @@ h1, h2, h3, h4, h5, h6 {
 .contributionsSingle {
   flex-grow: 1;
   text-align: left;
+
+  min-width: 24em;
+  max-width: 24em;
+
   margin: 1em;
   padding: 1em;
-  max-width: 25%;
+}
+
+.contributionsSingleSpeech {
+  position: relative;
+  padding: 1em;
 
   border: 1px solid #61dafb;
   border-radius: 1em;
 }
+
+.contributionsSingleSpeech:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 1.5em solid transparent;
+  border-top-color: #61dafb;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -4.5em;
+  margin-bottom: -1.469em;
+}
+
 
 .prevRoleItem{
   font-size: 0.8em;
