@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codeformentalhealth/static/css/main.30b3a52f.chunk.css",
+    "main.js": "/codeformentalhealth/static/js/main.82233c1c.chunk.js",
+    "main.js.map": "/codeformentalhealth/static/js/main.82233c1c.chunk.js.map",
+    "runtime-main.js": "/codeformentalhealth/static/js/runtime-main.7910143a.js",
+    "runtime-main.js.map": "/codeformentalhealth/static/js/runtime-main.7910143a.js.map",
+    "static/js/2.e74ad889.chunk.js": "/codeformentalhealth/static/js/2.e74ad889.chunk.js",
+    "static/js/2.e74ad889.chunk.js.map": "/codeformentalhealth/static/js/2.e74ad889.chunk.js.map",
+    "index.html": "/codeformentalhealth/index.html",
+    "precache-manifest.04d3db3340b50b57ca7d13b68397e2fb.js": "/codeformentalhealth/precache-manifest.04d3db3340b50b57ca7d13b68397e2fb.js",
+    "service-worker.js": "/codeformentalhealth/service-worker.js",
+    "static/css/main.30b3a52f.chunk.css.map": "/codeformentalhealth/static/css/main.30b3a52f.chunk.css.map",
+    "static/js/2.e74ad889.chunk.js.LICENSE": "/codeformentalhealth/static/js/2.e74ad889.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7910143a.js",
+    "static/js/2.e74ad889.chunk.js",
+    "static/css/main.30b3a52f.chunk.css",
+    "static/js/main.82233c1c.chunk.js"
+  ]
+}
