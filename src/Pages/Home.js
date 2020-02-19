@@ -4,6 +4,19 @@ import Contributions from "../Components/Contributions";
 
 class Home extends React.Component {
     render() {
+        if (false){
+            return (
+                <div>
+                    <h1>
+                        Work in Progress.
+                    </h1>
+                    <p>
+                        Want to help? Reach out - matthewkempa@hotmail.co.uk
+                    </p>
+                </div>
+
+            )
+        }
         return (
             <div className="App">
                 <Header/>

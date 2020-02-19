@@ -12,10 +12,10 @@ export default function ContributionSingle(props) {
     return (
         <div
             className='contributions_contributionsSingle'
+            style={{order : order}}
         >
             <SpeechBubble
                 summary={summary}
-                order={order}
             />
             <Profile
                 image={image}
