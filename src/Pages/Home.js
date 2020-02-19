@@ -4,7 +4,7 @@ import Contributions from "../Components/Contributions";
 
 class Home extends React.Component {
     render() {
-        if (false){
+        if (true){
             return (
                 <div>
                     <h1>
