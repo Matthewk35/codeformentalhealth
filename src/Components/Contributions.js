@@ -37,7 +37,7 @@ class Contributions extends React.Component {
 
         return (
             <div
-                className='contributionsContainer'
+                className='contributions_contributionsContainer'
             >
                 {
                     Object.keys(contributions).map((contribution, id) =>(

@@ -14,13 +14,38 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Code Pro', monospace;
 }
 
+a {
+  transition: font-weight 1s;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  font-weight: 800;
+}
+
 .boxShadowStandard {
   -webkit-box-shadow: 10px 10px 5px 0 rgba(212,205,212,1);
   -moz-box-shadow: 10px 10px 5px 0 rgba(212,205,212,1);
   box-shadow: 10px 10px 5px 0 rgba(212,205,212,1);
 }
 
-.contributionsContainer {
+/* Header */
+.header_navigation-links {
+  display: flex;
+  flex-display: row;
+  justify-content: space-around;
+
+  width: 50%;
+  margin: auto;
+}
+
+
+/* Contributions */
+.contributions_contributionsContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   align-content: center;
 }
 
-.contributionsSingle {
+.contributions_contributionsSingle {
   flex-grow: 1;
   text-align: left;
 
@@ -40,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1em;
 }
 
-.contributionsSingleSpeech {
+.contributions_speechBubble-contributionsSingleSpeech {
   position: relative;
   padding: 1em;
 
@@ -48,11 +73,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1em;
 }
 
-.contributionsSingleSpeech:after {
+.contributions_speechBubble-contributionsSingleSpeech:after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 42%;
   width: 0;
   height: 0;
   border: 1.5em solid transparent;
@@ -63,8 +88,32 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: -1.469em;
 }
 
+/* PROFILE */
+.profile_personalDetails {
+  display: flex;
+  flex-direction: row;
+  flex : 1;
+  justify-content: left;
+}
 
-.prevRoleItem{
+.profile_personalDetails-imageWrapper {
+  align-self: center;
+  padding: 0 1em;
+}
+
+.profile_personalDetails-image {
+  width: 6em;
+  height: 6em;
+  border-radius: 3em;
+  margin: auto;
+}
+
+.profile_personalDetails-prevRoleItem{
   font-size: 0.8em;
   margin-right: 10px;
+}
+
+.profile_personalDetails-socialsWrapper {
+  display: flex;
+  justify-content: space-around;
 }

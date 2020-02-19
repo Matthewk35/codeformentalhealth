@@ -7,17 +7,18 @@ export default function ContributionSingle(props) {
     if (!contribution)
         return;
 
-    const { summary, name, job, employerCurrent, employerPrev, socials } = contribution
+    const { summary, name, job, employerCurrent, employerPrev, socials, image } = contribution
 
     return (
         <div
-            className='contributionsSingle'
+            className='contributions_contributionsSingle'
         >
             <SpeechBubble
                 summary={summary}
                 order={order}
             />
             <Profile
+                image={image}
                 name={name}
                 job={job}
                 employerCurrent={employerCurrent}
