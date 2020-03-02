@@ -1,5 +1,6 @@
 import * as React from "react";
 import ContributionSingle from "./ContributionSingle";
+import SubHeader from "./SubHeader";
 
 class Contributions extends React.Component {
     constructor(props) {
@@ -36,19 +37,25 @@ class Contributions extends React.Component {
             return <h1>Loading...</h1>
 
         return (
-            <div
-                className='contributions_contributionsContainer'
-            >
-                {
-                    Object.keys(contributions).map((contribution, id) =>(
-                        <ContributionSingle
-                            key={id}
-                            order={Math.floor(Math.random() * 1000)}
-                            contribution={contributions[contribution]}
-                        />
-                    ))
-                }
-            </div>
+            <section>
+                <SubHeader
+                    title={"Contributions from our community"}
+                    desc={"Here are some contributions from our community"}
+                />
+                <div
+                    className='contributions_contributionsContainer'
+                >
+                    {
+                        Object.keys(contributions).map((contribution, id) =>(
+                            <ContributionSingle
+                                key={id}
+                                order={Math.floor(Math.random() * 1000)}
+                                contribution={contributions[contribution]}
+                            />
+                        ))
+                    }
+                </div>
+            </section>
         )
     }
 }

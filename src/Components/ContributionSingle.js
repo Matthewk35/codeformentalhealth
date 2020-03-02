@@ -5,7 +5,7 @@ import Profile from "./Profile";
 export default function ContributionSingle(props) {
     const { contribution, order } = props;
     if (!contribution)
-        return;
+        return <></>;
 
     const { summary, name, job, employerCurrent, employerPrev, socials, image } = contribution
 

@@ -5,13 +5,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  margin-bottom: 4em;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
 }
 
 a {
@@ -27,6 +35,15 @@ a:hover {
   font-weight: 800;
 }
 
+q {
+  font-size: 0.8em;
+}
+
+.App {
+  text-align: center;
+  margin: 0 3% 4em 3%;
+}
+
 .boxShadowStandard {
   -webkit-box-shadow: 10px 10px 5px 0 rgba(212,205,212,1);
   -moz-box-shadow: 10px 10px 5px 0 rgba(212,205,212,1);
@@ -39,17 +56,43 @@ a:hover {
   flex-display: row;
   justify-content: space-around;
 
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
+.header_navigation-linksSingle {
+  width: 30em;
+}
+
+
+/* Purpose */
+.purpose_section{}
+
+.purpose_purposeList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.purpose_purposeList_single {
+  border: 1px dashed black;
+  min-width: 24em;
+  max-width: 24em;
+}
+
+.purposeSingle_quoteSource {
+  font-size: 0.8em;
+}
 
 /* Contributions */
 .contributions_contributionsContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
 }
@@ -61,7 +104,6 @@ a:hover {
   min-width: 24em;
   max-width: 24em;
 
-  margin: 1em;
   padding: 1em;
 }
 

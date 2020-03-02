@@ -1,6 +1,7 @@
 import * as React from "react";
 import Header from "../Components/Header";
 import Contributions from "../Components/Contributions";
+import Purpose from "../Components/Purpose";
 
 class Home extends React.Component {
     render() {
@@ -20,6 +21,7 @@ class Home extends React.Component {
         return (
             <div className="App">
                 <Header/>
+                <Purpose/>
                 <Contributions/>
             </div>
         )
