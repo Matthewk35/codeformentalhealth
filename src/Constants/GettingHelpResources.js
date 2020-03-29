@@ -8,5 +8,10 @@ export const GettingHelpResources = {
         title : "Mind",
         description : "Mind provide advice and support to empower anyone experiencing a mental health problem. They campaign to improve services, raise awareness and promote understanding. They have outstanding resources and support available.",
         link : "https://www.mind.org.uk/"
+    },
+    everyMindMatters : {
+        title : "Every Mind Matters (NHS)",
+        description : "Expert advice and practical tips to help you look after your mental health and wellbeing from the NHS.",
+        link : "https://www.nhs.uk/oneyou/every-mind-matters/"
     }
 }
