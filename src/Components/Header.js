@@ -1,5 +1,6 @@
 import React from 'react';
 import {Routes} from "../Constants/Routes";
+import {Link} from "react-router-dom";
 
 function Header() {
   return (
@@ -19,12 +20,9 @@ function Header() {
             {
                 Object.values(Routes).map((route)=>{
                     return(
-                        <a
-                            href={route.link}
-                            className="header_navigation-linksSingle"
-                        >
+                        <Link to={route.link}>
                             {route.title}
-                        </a>
+                        </Link>
                     )
                 })
             }

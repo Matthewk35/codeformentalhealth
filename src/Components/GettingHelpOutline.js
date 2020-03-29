@@ -3,6 +3,7 @@ import {Routes} from "../Constants/Routes";
 import SubHeader from "./SubHeader";
 import {GettingHelpResources} from "../Constants/GettingHelpResources";
 import GettingHelpResource from "./GettingHelpResource";
+import {Link} from "react-router-dom";
 
 export default class GettingHelpOutline extends React.Component {
     render() {
@@ -18,7 +19,7 @@ export default class GettingHelpOutline extends React.Component {
                     Are we missing a resource? Have something to add? Something helped you previously?
                 </p>
                 <p style={{fontWeight:800}}>
-                    Please <a href={Routes.contribute}>Contribute</a>
+                    Please <Link to={Routes.contribute}>Contribute</Link>
                 </p>
 
                 <div
