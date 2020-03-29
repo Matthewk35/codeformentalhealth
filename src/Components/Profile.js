@@ -14,6 +14,7 @@ export default function Profile(props){
                         >
                             <img
                                 className="profile_personalDetails-image"
+                                alt={"profile"}
                                 src={props.image}
                             />
                         </div>
@@ -27,7 +28,7 @@ export default function Profile(props){
                         {props.job} @ {props.employerCurrent}
                     </p>
                     <p>
-                        {props.employerPrev.map((emp)=>{
+                        {props.employerPrev && props.employerPrev.map((emp)=>{
                             return <span className='profile_personalDetails-prevRoleItem'>{emp}</span>
                         })}
                     </p>
@@ -38,8 +39,8 @@ export default function Profile(props){
                 className="profile_personalDetails-socialsWrapper"
             >
                 {
-                    props.socials.map((socialUrl)=>{
-                        return <SocialIcon url={socialUrl}/>
+                    props.socials && props.socials.map((socialUrl)=>{
+                        return <SocialIcon url={socialUrl} target="_blank" rel="noopener noreferrer"/>
                     })
                 }
             </div>

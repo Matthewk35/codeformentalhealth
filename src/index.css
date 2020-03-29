@@ -78,6 +78,7 @@ q {
 }
 
 .purpose_purposeList_single {
+  flex: 1;
   border: 1px dashed black;
   min-width: 24em;
   max-width: 24em;

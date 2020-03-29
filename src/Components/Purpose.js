@@ -1,7 +1,7 @@
 import * as React from "react";
 import PurposeSingle from "./PurposeSingle";
-import {HarveyNashUrl, LearnDirectUrl, MatthewKempaUrl, NhsUkUrl} from "../Constants/Routes";
 import SubHeader from "./SubHeader";
+import {HarveyNashUrl, LearnDirectUrl, NhsUkUrl} from "../Constants/SingleLinks";
 
 export default class Purpose extends React.Component {
     render() {
@@ -21,7 +21,7 @@ export default class Purpose extends React.Component {
                 >
                     <PurposeSingle
                         headline={"Reflect"}
-                        desc={"It's very easy to feel alone and isolated whilst struggling with mental health issues." +
+                        desc={"It's very easy to feel alone and isolated whilst struggling with mental health issues. " +
                                 "We hope for CFMH can be used as a place to read and understand that you're far from alone" +
                                 ", help is always available and it's not 'one size fits all'. There are many ways of dealing" +
                                 " with mental health concerns. Hopefully you'll find some here."
@@ -34,8 +34,8 @@ export default class Purpose extends React.Component {
                     />
                     <PurposeSingle
                         headline={"Contribute"}
-                        desc={"Share if you're ready, program if you're not. This site has been purposefully left rather basic." +
-                                "We'd love for all the content, design and techie features to be build by the community." +
+                        desc={"Share if you're ready, program if you're not. This site has been purposefully left rather basic. " +
+                                "We'd love for all the content, design and techie features to be build by the community. " +
                                 "Our guide on contributing both code and personal experiences can be found at the link below."
                         }
                         quote={"You must speak out to raise awareness, share your heart and soul and connect with " +
@@ -62,7 +62,7 @@ export default class Purpose extends React.Component {
                 <p>
                     Let's talk about mental health
                 </p>
-                <a href={"https://twitter.com/hashtag/talkaboutmentalhealth"}>
+                <a target="_blank" rel="noopener noreferrer" href={"https://twitter.com/hashtag/talkaboutmentalhealth"}>
                     #TalkAboutMentalHealth
                 </a>
             </section>

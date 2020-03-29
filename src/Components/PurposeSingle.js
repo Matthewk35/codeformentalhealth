@@ -19,7 +19,7 @@ export default function PurposeSingle(props) {
                     <span
                         className={'purposeSingle_quoteSource'}
                     >
-                         - <a href={quoteUrl}>{quoteSource}</a>
+                         - <a target="_blank" rel="noopener noreferrer" href={quoteUrl}>{quoteSource}</a>
                     </span>
                 </div>
 

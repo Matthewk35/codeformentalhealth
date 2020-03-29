@@ -1,0 +1,18 @@
+{
+  "name" : "Users Name - this can be 'Anonymous' if preferred (but remember it'll be a commit). To contribute completely anonymously, see the contributing page",
+  "image" : "Find a URL for a 400px x 400px image and pop it here",
+  "job" : "Your role title - ",
+  "employerCurrent" : "Current employer",
+  "employerPrev" : ["Previous", "employers"],
+  "industry" : "What industry?",
+  "summary" : "Breifly share any thoughts on mental health, the importance, and any motivational thoughts you may have.",
+  "details" : "Field not enabled yet, and optional - Could be simply a story about how mental health impacts your life, things that help you etc.",
+  "socials" : [
+    "https://www.linkedin.com/in/xxxx-xxxx",
+    "https://www.facebook.com/xxxx-xxxx",
+    "https://twitter.com/xxxx-xxxx",
+    "https://github.com/xxxx-xxxx",
+    "https://open.spotify.com/artist/xxxx-xxxx",
+    "https://soundcloud.com/xxxx-xxxx"
+  ]
+}
