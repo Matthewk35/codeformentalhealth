@@ -6,7 +6,7 @@ import Footer from "../Components/Footer";
 
 class Home extends React.Component {
     render() {
-        if (true){
+        if (false){
             return (
                 <div>
                     <h1>

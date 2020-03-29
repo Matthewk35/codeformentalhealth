@@ -21,9 +21,7 @@ export default class GettingHelpOutline extends React.Component {
                     Please <a href={Routes.contribute}>Contribute</a>
                 </p>
 
-                <div
-                    className='contributions_contributionsContainer'
-                >
+                <div>
                     {
                         Object.values(GettingHelpResources).map((resource)=>{
                             return (
