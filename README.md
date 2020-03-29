@@ -1,16 +1,20 @@
 ## How to Contribute
 
-Clone the repo <br/>
-Create a branch <br/>
-Create a json file in ./Contributing following the Template. <br/>
-Create a Pull request <br/>
-Wait for us to review and merge
+Clone the repo 
+
+Create a branch 
+
+Make your contribution, there are some examples on <a href="https://www.codeformentalhealth.com/#/contribute">the contributing page</a>
+
+Create a Pull request 
+
+We'll review review and merge
+
+Want to stay anonymous? Email us instead at <a href="mailto:codeformentalhealth@gmail.com">codeformentalhealth@gmail.com</a>
 
 ## FAQ
 
-Why do you review? <br/>
-X Y Z
-
+Coming Soon!
 
 ## Want to test your change locally?
 
@@ -20,7 +24,7 @@ Once cloned, in the project directory, run:
 
 Then you'll be able to run:
 
-### `npm start`
+### `npm run start`
 
 This runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
