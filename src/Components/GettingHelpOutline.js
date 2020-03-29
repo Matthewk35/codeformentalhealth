@@ -19,7 +19,7 @@ export default class GettingHelpOutline extends React.Component {
                     Are we missing a resource? Have something to add? Something helped you previously?
                 </p>
                 <p style={{fontWeight:800}}>
-                    Please <Link to={Routes.contribute}>Contribute</Link>
+                    Please <a href={"#/contribute"}>Contribute</a>
                 </p>
 
                 <div
