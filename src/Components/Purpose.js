@@ -1,7 +1,7 @@
 import * as React from "react";
 import PurposeSingle from "./PurposeSingle";
 import SubHeader from "./SubHeader";
-import {BanyanMhUrl, HarveyNashUrl, LearnDirectUrl, NhsUkUrl} from "../Constants/SingleLinks";
+import {BanyanMhUrl, HarveyNashUrl, NhsUkUrl} from "../Constants/SingleLinks";
 
 export default class Purpose extends React.Component {
     render() {
@@ -14,7 +14,7 @@ export default class Purpose extends React.Component {
                     desc={"We aim to create a safe space where programmers, techies, IT professionals, 'nerds' and generally anyone, can come and reflect, contribute and learn."}
                 />
                 <p>
-                    But, what do we mean by this?
+                    Our aims
                 </p>
                 <div
                     className={'purpose_purposeList'}
@@ -22,7 +22,7 @@ export default class Purpose extends React.Component {
                     <PurposeSingle
                         headline={"Reflect"}
                         desc={"It's very easy to feel alone and isolated whilst struggling with mental health issues. " +
-                                "We hope for CFMH can be used as a place to read and understand that you're far from alone" +
+                                "We hope that this site can be used as a place to read and understand that you're far from alone" +
                                 ", help is always available and it's not 'one size fits all'. There are many ways of dealing" +
                                 " with mental health concerns. Hopefully you'll find some here."
                         }
@@ -47,8 +47,8 @@ export default class Purpose extends React.Component {
                     <PurposeSingle
                         headline={"Learn"}
                         desc={"Understanding mental health issues can go a long way, whether it is understanding your own thoughts and feelings, " +
-                                "or being able to empathise with a friend or colleagues. This site hopes to share knowledge on " +
-                                "both cool React tricks and mental health management."}
+                                "or being able to empathise with a friend or colleagues. This site hopes to share knowledge and resources on " +
+                                "mental health."}
                         quote={"Research shows that learning new skills can also improve your mental wellbeing by: " +
                                 "boosting self-confidence and raising self-esteem, " +
                                 "helping you to build a sense of purpose, " +

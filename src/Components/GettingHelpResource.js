@@ -9,7 +9,7 @@ export default function GettingHelpResource(props) {
         <div className='contributions_contributionsSingle'>
             <h4>{title}</h4>
             <p>{description}</p>
-            <a href={link}>Visit Site</a>
+            <a target="_blank" rel="noopener noreferrer" href={link}>Visit Site</a>
         </div>
     )
 }
