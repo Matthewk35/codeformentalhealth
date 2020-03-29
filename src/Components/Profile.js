@@ -15,7 +15,7 @@ export default function Profile(props){
                             <img
                                 className="profile_personalDetails-image"
                                 alt={"profile"}
-                                src={props.image}
+                                src={require(`../Assets/Images/${props.image}`)}
                             />
                         </div>
                 }
