@@ -80,8 +80,8 @@ q {
 .purpose_purposeList_single {
   flex: 1;
   border: 1px dashed black;
-  min-width: 24em;
-  max-width: 24em;
+  min-width: 30%;
+  max-width: 30%;
 }
 
 .purposeSingle_quoteSource {
@@ -102,8 +102,8 @@ q {
   flex-grow: 1;
   text-align: left;
 
-  min-width: 24em;
-  max-width: 24em;
+  min-width: 30%;
+  max-width: 30%;
 
   padding: 1em;
 }
@@ -159,4 +159,37 @@ q {
 .profile_personalDetails-socialsWrapper {
   display: flex;
   justify-content: space-around;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 719px) {
+  .purpose_purposeList_single {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .contributions_contributionsSingle{
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .header_navigation-links{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1000px) {
+  .purpose_purposeList_single {
+    min-width: 45%;
+    max-width: 45%;
+  }
+
+  .contributions_contributionsSingle{
+    min-width: 45%;
+    max-width: 45%;
+  }
+
+  .header_navigation-links{
+    width: 100%;
+  }
 }
