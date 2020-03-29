@@ -6,10 +6,10 @@ export default function HowToContributeMethod(props) {
         return <></>;
 
     return (
-        <div>
+        <div className={"contributeToSite_single"}>
             <h4>{title}</h4>
-            <h6>{example}</h6>
             <p>{description}</p>
+            <h6>{example}</h6>
             <a href={examplePR}>See example PR</a>
         </div>
     )

@@ -161,6 +161,12 @@ q {
   justify-content: space-around;
 }
 
+.contributeToSite_single{
+  margin: 50px 0;
+  padding: 50px;
+  border: black dashed 1px;
+  width: 100%;
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 719px) {
   .purpose_purposeList_single {

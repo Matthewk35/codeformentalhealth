@@ -15,7 +15,12 @@ export default class HowToContributeOutline extends React.Component {
                 />
 
                 <p>
-                    Simply raise a <a href={ghRepo} target="_blank" rel="noopener noreferrer">pull request into master</a> with any of the following:
+                    Simply raise a <a href={ghRepo} target="_blank" rel="noopener noreferrer">pull request into master</a> with any of the below!
+                </p>
+
+                <p>
+                    Please note, that once a PR is raised/merged, it'll be in the commit history -
+                    if you want to contribute anonymously, please <a href={"mailto:codeformentalhealth@gmail.com"}>email your contribution</a>.
                 </p>
 
                 <div

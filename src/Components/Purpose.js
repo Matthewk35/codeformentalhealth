@@ -1,7 +1,7 @@
 import * as React from "react";
 import PurposeSingle from "./PurposeSingle";
 import SubHeader from "./SubHeader";
-import {HarveyNashUrl, LearnDirectUrl, NhsUkUrl} from "../Constants/SingleLinks";
+import {BanyanMhUrl, HarveyNashUrl, LearnDirectUrl, NhsUkUrl} from "../Constants/SingleLinks";
 
 export default class Purpose extends React.Component {
     render() {
@@ -38,12 +38,11 @@ export default class Purpose extends React.Component {
                                 "We'd love for all the content, design and techie features to be build by the community. " +
                                 "Our guide on contributing both code and personal experiences can be found at the link below."
                         }
-                        quote={"You must speak out to raise awareness, share your heart and soul and connect with " +
-                                "people in the hope that it may prove to be useful or helpful. " +
-                                "You never know, it may just save your life."
+                        quote={"By talking about mental illness on a more regular basis, we as a society will hopefully unveil the false notions that plague this topic." +
+                                " When these myths are debunked, it should help remove the stigma surrounding mental health."
                         }
-                        quoteSource={"Chris"}
-                        quoteUrl={LearnDirectUrl}
+                        quoteSource={"Banyan Mental Health"}
+                        quoteUrl={BanyanMhUrl}
                     />
                     <PurposeSingle
                         headline={"Learn"}
